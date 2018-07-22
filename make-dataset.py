@@ -11,7 +11,7 @@ ap.add_argument("-o", "--output", required=True, help="path to directory")
 args = vars(ap.parse_args())
 
 # if args.get("query", None) is None:
-API_KEY = "8ba3774adf584761a391440c0ac46959"
+API_KEY = "Your own Bing Image Search API Key"
 max_results_search = 200
 group_size = 50
 
